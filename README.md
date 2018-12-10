@@ -4,16 +4,16 @@
   > http://www.springboottutorial.com/creating-microservices-with-spring-boot-part-1-getting-started
 
 #### Background
-  Forex Service - provides current currency value from one currency to another
+  **Forex Service** provides current currency value from one currency to another
   
-  Currency Converter Service - Bulk of currency to know the today's value
+  **Currency Converter Service** Bulk of currency to know the today's value
 
-  Netflix Ribbon - Provides client side load balancing
+  **Netflix Ribbon** Provides client side load balancing
   
-  Spring Feign Client - Plain Spring RestTemplate will not load balance traffic, whereas FeignClient has 
+  **Spring Feign Client** Plain Spring RestTemplate will not load balance traffic, whereas FeignClient has 
   the intelligence to route traffic
   
-  Netflix Eureka - Auto discovery of the new instances added in the cluster
+  **Netflix Eureka** Auto discovery of the new instances added in the cluster
 
 #### URLs
   Plain RestTemplate form
