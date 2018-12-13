@@ -17,9 +17,11 @@
 
 ### Docker - Postgres Database
 Create Postgresql database container based on the below configuration provided.
+
     $ docker run --name oms_postgres -p 5432:5432 -e POSTGRES_USER=dbuser -e POSTGRES_DB=products_db -e POSTGRES_PASSWORD=password -d postgres
 
 Enable oms_postgres container to accept connection from other containers
+
     $ docker exec -it oms_postgres /bin/bash
     root@b2837994112d: **echo "host all  all    0.0.0.0/0  md5" >> ./var/lib/postgresql/data/pg_hba.conf** 
 
