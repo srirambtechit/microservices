@@ -2,9 +2,13 @@
 
 ### Reference
   part 1 - https://www.javacodegeeks.com/2018/11/spring-microservices-docker-kubernetes.html
+  
   part 2 - https://www.javacodegeeks.com/2018/11/spring-microservices-docker-kubernetes-2.html
+
   github - https://github.com/anirudh83/productService
+  
   docker - https://severalnines.com/blog/deploying-postgresql-docker-container
+  
   docker - https://www.linode.com/docs/applications/containers/docker-container-communication/#before-you-begin
 
 ### Gradle build and app execution
