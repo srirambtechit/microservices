@@ -12,21 +12,22 @@
   docker - https://www.linode.com/docs/applications/containers/docker-container-communication/#before-you-begin
 
 ### Gradle build and app execution
-  > $ ./gradlew build
-  > $ ./gradlew bootRun
+    $ ./gradlew build
+    $ ./gradlew bootRun
 
 ### Docker - Postgres Database
 Create Postgresql database container based on the below configuration provided.
-  > $ docker run --name oms_postgres -p 5432:5432 -e POSTGRES_USER=dbuser -e POSTGRES_DB=products_db -e POSTGRES_PASSWORD=password -d postgres
+    $ docker run --name oms_postgres -p 5432:5432 -e POSTGRES_USER=dbuser -e POSTGRES_DB=products_db -e POSTGRES_PASSWORD=password -d postgres
+
 Enable oms_postgres container to accept connection from other containers
-  > $ docker exec -it oms_postgres /bin/bash
-  > root@b2837994112d: **echo "host all  all    0.0.0.0/0  md5" >> ./var/lib/postgresql/data/pg_hba.conf** 
+    $ docker exec -it oms_postgres /bin/bash
+    root@b2837994112d: **echo "host all  all    0.0.0.0/0  md5" >> ./var/lib/postgresql/data/pg_hba.conf** 
 
 ### Building docker image
-  > $ docker build . -t product
+    $ docker build . -t product
 
 ### Running docker image
-  > $ docker run -p 8080:8080 --link=oms_postgres:database product
+    $ docker run -p 8080:8080 --link=oms_postgres:database product
 
 ### Debuggin steps if any issue comes
 Login to postgres db server via postgres client
