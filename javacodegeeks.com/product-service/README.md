@@ -58,4 +58,4 @@ Directly login with postgres schema
 	docker exec -it oms_postgres psql -d postgres -U dbuser
 
 ### POST http request
-  > $ curl --header "Content-Type: application/json" --request POST --data '{"name" : "Nike shoes", "description" : "mens shoes size 10","sku" : "1234asc"}' http://localhost:8080/products
+    $ curl --header "Content-Type: application/json" --request POST --data '{"name" : "Nike shoes", "description" : "mens shoes size 10","sku" : "1234asc"}' http://localhost:8080/products
