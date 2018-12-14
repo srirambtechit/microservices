@@ -9,7 +9,7 @@
 
     cd flask-microservice/ && docker-compose up
 
-    You should see all of the services start in your terminal.
+You should see all of the services start in your terminal.
 
   2. Open a new terminal window and make a request to the example application:
 
@@ -25,6 +25,7 @@
   4. Return to the terminal window where Docker Compose was started to view the standard out log:
 
    **flaskapp_1 | DEBUG in linode [/home/flask/app/web/linode.py:56]:**
+
    **flaskapp_1 | reset visitor count**
 
 ### Using Containers in Production: Best PracticesPermalink
