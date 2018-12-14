@@ -6,3 +6,6 @@
  
 # Microservice + Python + Redis + PostgreSQL + Docker compose
  - [flask-microservice](../master/flask-microservice)
+
+# Microservice + Event Sourcing Pattern
+ - [microservices-eventsourcing-pattern](../master/microservices-eventsourcing-pattern)
