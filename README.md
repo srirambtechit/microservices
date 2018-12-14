@@ -1,8 +1,8 @@
 # Spring boot + Microservice + Projects
 
- - [springboottuorial.com](tree/master/springboottutorial.com)
+ - [springboottuorial.com](../master/springboottutorial.com)
 
- - javacodegeeks.com
+ - [javacodegeeks.com](../master/javacodegeeks.com)
  
 # Microservice + Python + Redis + PostgreSQL + Docker compose
- - [flask-microservice](tree/master/flask-microservice)
+ - [flask-microservice](../master/flask-microservice)
